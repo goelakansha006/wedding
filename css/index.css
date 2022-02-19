@@ -29,6 +29,7 @@ body {
   left: 40px;
 }
 
+
 /* ----------------------Texto de entrada y botón------------------------ */
 .title-container {
   height: 100vh;
@@ -37,6 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-variant: normal;
   flex-direction: column;
   z-index: 2;
   text-align: center;
@@ -714,7 +716,7 @@ form button {
   }
 
   .center-text h2 {
-    font-size: 60px;
+    font-size: 62px;
     margin-bottom: 20px;
   }
 
@@ -725,7 +727,7 @@ form button {
   }
 
   .center-text p {
-    font-size: 20px;
+    font-size: 32px;
     width: 450px;
     color: #690b22;
   }
