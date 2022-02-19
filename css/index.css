@@ -396,14 +396,16 @@ a {
 .button-continue p,
 .button-continue1 p,
 .button-continue2 p,
-.button-continue3 p {
+.button-continue3 p,
+.button-continue4 p {
   font-size: 12px;
   color: #fff;
 }
 
 .button-continueLeft p,
 .button-continue1Left p,
-.button-continue2Left p {
+.button-continue2Left p,
+.button-continue3Left p {
   font-size: 12px;
   color: #fff;
   margin-top: 0.5rem;
@@ -474,6 +476,22 @@ a {
   z-index: 9;
 }
 
+.button-continue4 {
+    background-color: #690b22;
+    width: 100px;
+    height: 50px;
+    bottom: -20px;
+    right: -20px;
+    position: absolute;
+    border-radius: 0.25rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 8;
+  }
+
 .button-continueLeft {
   background-color: #85c9be;
   width: 100px !important;
@@ -522,6 +540,22 @@ a {
   z-index: 9;
 }
 
+.button-continue3Left {
+    background-color: #85c9be;
+    width: 100px;
+    height: 36px;
+    bottom: 34px;
+    right: -20px;
+    position: absolute;
+    border-radius: 0.25rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 8;
+  }
+
 .behind-button {
   right: 1px;
   width: 250px;
@@ -559,6 +593,10 @@ a {
   left: -3px;
 }
 
+#fifth .left-text {
+  left: -3px;
+}
+
 #two .center-text {
   left: 164px;
 }
@@ -568,6 +606,8 @@ a {
   width: 75%;
   height: 58%;
 }
+
+
 
 .center-text {
   position: absolute;
@@ -581,6 +621,10 @@ a {
 }
 
 #four .center-text h2 {
+  font-size: 24px;
+}
+
+#fifth .center-text h2 {
   font-size: 24px;
 }
 
@@ -696,6 +740,13 @@ form button {
     left: -98px;
   }
 
+  #fifth .left-text {
+    left: -170px;
+  }
+
+  #fifth .center-text p{
+    width: 95% ;
+  }
   .center-text {
     left: 190px;
   }
@@ -710,6 +761,8 @@ form button {
     font-weight: bold;
     font-size: 36px;
   }
+
+
 
   .center-text p {
     font-size: 32px;
@@ -734,26 +787,35 @@ form button {
     height: 109px;
   }
 
-  .button-continue1Left {
-    bottom: 104px !important;
-    width: 180px !important;
-    height: 80px !important;
+  .button-continue4 {
+    width: 180px;
+    height: 109px;
   }
-  .button-continue2Left {
-    bottom: 104px !important;
-    width: 180px !important;
-    height: 80px !important;
-  }
-  .button-continueLeft {
+
+  .button-continue1Left,
+  .button-continue2Left,
+  .button-continue3Left,
+  .button-continueLeft
+   {
     bottom: 104px !important;
     width: 180px !important;
     height: 80px !important;
   }
 
+  .button-continue1Left p,
+  .button-continue2Left p,
+  .button-continue3Left p,
+  .button-continueLeft p{
+    font-size: 24px !important;
+
+  }
+   
+
   .button-continue p,
   .button-continue1 p,
   .button-continue2 p,
-  .button-continue3 p {
+  .button-continue3 p,
+  .button-continue4 p {
     font-size: 24px;
     color: #fff;
   }
@@ -776,6 +838,15 @@ form button {
   #four .center-text h2 {
     font-size: 45px;
     margin-bottom: 40px;
+  }
+
+  #fifth .center-text h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .fifth .center-text p {
+    width: 95%;
   }
 
   .titleAssist .h3 {
