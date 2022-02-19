@@ -29,7 +29,6 @@ body {
   left: 40px;
 }
 
-
 /* ----------------------Texto de entrada y botón------------------------ */
 .title-container {
   height: 100vh;
@@ -102,7 +101,6 @@ input:checked[type="checkbox"] {
   padding: 9px;
   border-radius: 3px;
 }
-
 
 .info .well img {
   border: 1px solid #ddd;
@@ -478,9 +476,9 @@ a {
 
 .button-continueLeft {
   background-color: #85c9be;
-  width: 100px;
-  height: 30px;
-  bottom: 34px;
+  width: 100px !important;
+  height: 54px;
+  bottom: 36px;
   right: -20px;
   position: absolute;
   border-radius: 0.25rem;
@@ -495,7 +493,7 @@ a {
 .button-continue1Left {
   background-color: #85c9be;
   width: 100px;
-  height: 30px;
+  height: 36px;
   bottom: 34px;
   right: -20px;
   position: absolute;
@@ -511,7 +509,7 @@ a {
 .button-continue2Left {
   background-color: #85c9be;
   width: 100px;
-  height: 30px;
+  height: 36px;
   bottom: 34px;
   right: -20px;
   position: absolute;
@@ -738,12 +736,18 @@ form button {
 
   .button-continue1Left {
     bottom: 104px !important;
+    width: 180px !important;
+    height: 80px !important;
   }
   .button-continue2Left {
     bottom: 104px !important;
+    width: 180px !important;
+    height: 80px !important;
   }
   .button-continueLeft {
     bottom: 104px !important;
+    width: 180px !important;
+    height: 80px !important;
   }
 
   .button-continue p,
