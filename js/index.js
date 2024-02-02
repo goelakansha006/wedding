@@ -8,20 +8,20 @@ const firstStep = document.querySelector("#one");
 const secondStep = document.querySelector("#two");
 const thirdStep = document.querySelector("#three");
 const fourthStep = document.querySelector("#four");
-const fifthStep = document.querySelector("#fifth");
+// const fifthStep = document.querySelector("#fifth");
 
 const firstButton = document.querySelector("#firstButton");
 const secondButton = document.querySelector("#secondButton");
 const thirdButton = document.querySelector("#thirdButton");
 const fourthButton = document.querySelector("#fourthButton");
-const fifthButton = document.querySelector("#fifthButton");
+// const fifthButton = document.querySelector("#fifthButton");
 
 const firstButtonLeft = document.querySelector("#firstButtonLeft");
 const secondButtonLeft = document.querySelector("#secondButtonLeft");
 const thirdButtonLeft = document.querySelector("#thirdButtonLeft");
-const fourthButtonLeft = document.querySelector("#fourthButtonLeft");
+// const fourthButtonLeft = document.querySelector("#fourthButtonLeft");
 
-var pages = new Array(firstStep, secondStep, thirdStep, fourthStep, fifthStep);
+var pages = new Array(firstStep, secondStep, thirdStep, fourthStep);
 
 let sliderImages = document.querySelectorAll(".slide"),
   arrowLeft = document.querySelector("#arrow-left"),
@@ -100,12 +100,12 @@ function nextPage2() {
 }
 
 function nextPage3() {
-  dissapear(fourthButton);
-  dissapear(fourthStep);
-  dissapear(thirdButtonLeft);
+  // dissapear(fourthButton);
+  // dissapear(fourthStep);
+  // dissapear(thirdButtonLeft);
   // appear(fifthButton)
-  appear(fourthButtonLeft);
-  appear(fifthStep);
+  // appear(fourthButtonLeft);
+  // appear(fifthStep);
 }
 
 function lastPage() {
@@ -138,8 +138,8 @@ function lastPage3() {
   appear(fourthButton);
   appear(fourthStep);
   appear(thirdButtonLeft);
-  dissapear(fifthButton);
-  dissapear(fourthButtonLeft);
+  // dissapear(fifthButton);
+  // dissapear(fourthButtonLeft);
   dissapear(fifthStep);
 }
 
